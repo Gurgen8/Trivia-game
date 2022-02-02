@@ -60,7 +60,7 @@ const data = [
           correct: true,
         },
         {
-          text: "Frank Lamparf",
+          text: "Frank Lampard",
           correct: false,
         },
       ],
@@ -118,7 +118,7 @@ const data = [
           correct: false,
         },
         {
-          text: "Hlios Kesar",
+          text: "Huios Kesar",
           correct: true,
         },
         {

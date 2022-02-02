@@ -203,4 +203,62 @@
   cursor: pointer;
   font-size: 18px;
   font-weight: 500;
+  color: black;
+}
+
+.statics {
+  width: 100px;
+  height: 40px;
+  background-color: darkblue;
+  color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-top: 20px;
+  z-index: 999;
+  display: none;
+  transition: all 0.5s;
+}
+.confirm {
+  background-color: darkcyan;
+}
+.statics:hover {
+  background-color: green;
+  color: black;
+}
+.ReactModal__Overlay {
+  z-index: 9999;
+}
+.phone {
+  margin: 10px 0 10px 0;
+}
+.email {
+  margin-top: 20px;
+}
+.back {
+  position: absolute;
+  top: 0;
+  left: 0.5%;
+  font-size: 30px;
+  color: red;
+  font-weight: 900;
+  z-index: 9999;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 767px) {
+  .main {
+    width: 100% !important;
+  }
+  .statics {
+    display: block;
+  }
+
+  .pyramid {
+    position: absolute !important;
+    width: 100% !important;
+    height: 100vh !important;
+  }
 }
