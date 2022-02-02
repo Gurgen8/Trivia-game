@@ -65,7 +65,7 @@ function App() {
   };
   return (
     <div className="app">
-      {earned === "$ 100" ?
+      {earned === "$ 1.000.000" ?
         <Modal
           isOpen={earned === "$ 100"}
           onRequestClose={earned === "$ 100" ? false : null}
